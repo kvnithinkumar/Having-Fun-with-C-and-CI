@@ -10,5 +10,6 @@ install:
 
 script:
   - echo "Reached Script Section"
+  - make all
   - gcc   intial_demo_code_cunit.c -o output
   - ./output
