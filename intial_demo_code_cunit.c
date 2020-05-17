@@ -1,5 +1,5 @@
-#include <CUnit/Headers/CUnit.h>
-#include <CUnit/Headers/Basic.h>
+#include <CUnit/CUnit.h>
+#include <CUnit/Basic.h>
 
 int maxi(int i1, int i2)
 {

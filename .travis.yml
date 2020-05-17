@@ -10,5 +10,5 @@ install:
 
 script:
   - echo "Reached Script Section"
-  - gcc   CUnit/Sources/Basic/Basic.c intial_demo_code_cunit.c -o output
+  - gcc   -I/CUnit/Headers CUnit/Sources/Basic/Basic.c intial_demo_code_cunit.c -o output
   - ./output
